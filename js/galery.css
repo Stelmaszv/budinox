@@ -1,0 +1,29 @@
+#mian_galery{
+	padding: 50px 0px 0px 0px ;
+	text-align: center;
+}
+#left_photo,#right_photo{
+	padding: 30px;
+	opacity: 0.6 ;	
+}
+#prewius,#next{
+	position: absolute;
+}
+#prewius{
+	left: 80px;
+	top:350px;
+}
+#next{
+	right: 80px;
+	top:350px;
+}
+#down_mini_galery{
+	margin-left: 15%;
+	width: 700px;
+	height: 200px;
+	background-color: red;
+	border-radius: 5px;
+	border: 2px solid black;
+	box-shadow: 10px;
+}
+

@@ -1,0 +1,837 @@
+
+	body{
+		background-image: url("web/binding_light.png");
+		margin: auto;
+		width: 1024px;
+		margin-top: 30px;
+	}
+	#add_section_file{
+		text-align: center;
+		margin-left: 20%;
+		margin-top: 20%;
+
+	}
+	#photo_js{
+		width: 1024px;
+	}
+	.add_photo{
+		margin:20px; 
+	}
+	#loop_galery_js_generate{
+		padding:40px;
+	}
+	#upload_icon,#upload_icon_photos{
+		padding: 10px;
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		background-color: green;
+		width: 40%;
+
+		margin-top: 10px;
+		margin-left: 20%;
+	}
+	#down_mini_galery{
+		width: 100%;
+	}
+	#add_info{
+		text-transform: uppercase;
+		text-align:center; 
+		font-size: 25px;
+		text-shadow:0 0 6px gray;
+	}
+	#photo_ajax_request,#upload_icon_photos{
+		text-align: center;
+	}
+	#upload_icon_photos{
+		margin-left: 30%;
+	}
+	#error_notice,#sucess_notice{
+		width: 100%;
+		padding: 10px;
+		color: white;
+		background-color: red;
+		text-transform: uppercase;
+	}
+	#sucess_notice{
+		background-color: green;
+	}
+	#form_div_space,#add_system_div{
+		margin: 50px;
+		text-align: center;
+	}
+	#play_SLIDE,#stop_SLIDE{
+		float: left;
+		min-width:100px;
+	}
+	#hed_title{
+		text-transform: uppercase;
+		text-align:center; 
+		margin: 10px;
+		font-size: 25px;
+		 text-shadow:0 0 6px gray;
+
+	}
+	#hed_to_chuse,#hed_add{
+		float: left;
+		margin-left: 100px;
+		text-transform: uppercase;
+		opacity: 0.5; 
+	}
+	#loop_section{
+		margin-left: 15%;
+	}
+	#content_editor_slite{
+		margin-left: 300px;
+		margin-bottom: -20px;
+	}
+	.slide{
+		float: none;
+		padding: 15px;
+		margin:  0px;
+		width: 80%;
+		height: 150px;
+		background-size:100% 100%;
+	}
+	.slide_to_edition{
+		margin: 10px;
+		height: 120px;
+		background-size:100% 100%;
+	}
+	#edition_section{
+		display: block;
+	}
+	#menu_div,#view_place{
+		float: left;
+	}
+	#menu_div{
+		width: 100px; 
+	}
+	#view_place{
+		width: 525px;
+		height: 60px;
+	}
+	#main_edition{
+		padding: 20px;
+	}
+	#menu_edition,#menu_edition_lost{
+		letter-spacing: 10px;
+		width: 400px; 
+		text-align: center;
+		text-transform: uppercase;
+		color: white;
+		padding: 10px;
+		margin:10px;
+		background-color: blue;
+	}
+	#menu_edition_lost{
+		letter-spacing: 5px;
+	}
+	#next,#back{
+		float: left;
+		min-width:70px;
+		min-height: 20px; 
+	}
+	#zero_negaion{
+		margin-top: 30px; 
+	}
+	#ok,#no{
+		background-color: green;
+		text-transform: uppercase;
+		margin-left: 10px;
+		padding: 10px;
+	}
+	#ok:hover,#no:hover{
+		opacity: 0.7;
+	}
+	#no{
+
+		background-color: red;
+	}
+	#menu_mes{
+		margin: 15px 0px 0px 60px;
+		font-size: 25px;
+	}
+	#edit_form_firm_info,#edit_form_firm_info_contact{
+		margin-left: 5%;
+		min-height: 200px;
+		width: 90%;
+	}
+	#servvment_admin{
+		display: none;
+	}
+	#icon,#icon_mess{
+		padding: 6px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 20px;
+		float: left;
+	}
+	#mes_info,#edit_info,#log_info{
+		float: left;
+		padding: 6px;
+		margin-left: 10px;
+		font-size: 20px;
+		display: none;
+		
+	}
+
+	#sennt{
+		text-transform: uppercase;
+		color: green;
+	}
+	#list_place{
+		position:absolute;
+		background-color: white;
+		width: 924px;
+		height: 700px;
+		margin: 50px;
+		display: none;
+		padding: 50px;
+	}
+	#about_insite_text{
+		margin-top: 10px;
+		float: left;
+		padding: 20px;
+		text-align: justify;
+		min-height: 200px;
+	}
+	#Photo_firm{
+		margin: 10px;
+		float: left;
+		width: 150px;
+		height: 150px;
+		background-color: black;
+	}
+	#menu_messages{
+		width: 1024px;
+		height: 50px;
+		background-color: gray;
+	}
+	#subjest,#content,#time,#adreess,#action{
+		color: white;
+		text-transform: uppercase;
+		float: left;	
+
+	}
+	#adreess{
+		padding: 10px 105px 0px 35px;
+	}
+	#subjest{
+		padding: 10px 140px 0px 0px;
+	}
+	#content{
+		padding: 10px 210px 0px 0px;
+	}
+	#time{
+		padding: 10px 125px 0px 0px;
+	}
+	#action{
+		padding: 10px 0px 0px 0px;
+	}
+	#editor_icon_photo,#cancel_ICON,#save_ICON,#cancel_ICON_contact,#save_ICON_contact,#save_ICON_ADMINofert,#cancel_ICON_ADMINofert,#save_ICON_slite,#cancel_ICON_slite{
+		float: left;
+	}
+	#editor_icon_photo,#cancel_ICON,#save_ICON,#cancel_ICON_contact,#save_ICON_contact,#save_ICON_ADMINofert,#cancel_ICON_ADMINofert,#save_ICON_slite,#cancel_ICON_slite{
+		height: 20px;
+		width: 50px;
+		text-transform: uppercase;
+		background-color: green;
+		color: white;
+		padding: 10px;
+		font-size: 15px;
+	}
+	#save_ICON,#cancel_ICON,#cancel_ICON_contact,#save_ICON_contact,#save_ICON_ADMINofert,#cancel_ICON_ADMINofert,#save_ICON_slite,#cancel_ICON_slite{
+		text-align: center;
+		letter-spacing: 15px;
+		width: 230px;
+		height: 40px;
+	}
+	#editor_menu_amin{
+		margin-top: -50px;
+	}
+	#cancel_ICON,#cancel_ICON_contact,#cancel_ICON_ADMINofert,#cancel_ICON_slite{
+		background-color: red;
+	}
+	#save_ICON_ADMINofert,#cancel_ICON_ADMINofert{
+		width: 300px;
+	}
+	#main_page,#about_firm,#ofert,#galery,#contact,#messagess,#edit{
+		display: none;
+	}
+	#contact,#about_firm{
+		padding-top: 100px;
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+	#subjest_DIV,#content_DIV,#time_DIV,#stan_DIV,#adddres_DIV,#action_DIV{
+		float: left;
+		padding: 10px;
+	}
+	#ok,#no{
+		color: white;
+	}
+	#adddres_DIV{
+		width: 240px;
+		padding-left: 35px;
+	}
+	#action_icon{
+		position: static;
+		padding-right: 10px;
+	}
+	#subjest_DIV{
+		width: 190px;
+	}
+	#content_DIV{
+		width: 230px;
+	}
+	#stan_DIV{
+		width: 200px;
+	}
+	#action_DIV{
+		
+	}
+	#messages_main_div{
+	
+		width: 1024px;
+		height: 680px;
+	}	
+	#ofert{
+		padding: 50px;
+	}
+	#admin_panel{
+		text-align: center;
+		background-color: white;
+		height: 40px;
+		padding-left: 200px;
+
+	}
+	#slide_text,#slide_text2,#slide_text3,#slide_text4,#slide_text_preview{
+		background-image: url("web/irongrip.png");
+		margin-left: 80px;
+		width: 250px;
+		height: 150px;
+		display: none;
+		border-radius: 5px;
+		box-shadow:0 0 6px black;
+	}
+	#slide_text_preview,#slide_text_edition{
+		padding: 10px;
+		margin-left:35px; 
+		font-size: 10px;
+		display: block;
+		color: white;
+		width: 150px;
+		height: 100px;
+	}
+	#slide_text_edition{
+		padding: 0px;
+	}
+	#slide_loop,#slide_loop_edition{
+		padding-top: 10px;
+		background:no-repeat; 
+		background-size:100% 100%;
+		background-image: url("web/irongrip.png");
+		width: 490px;
+		height: 150px;
+		margin:10px; 
+	}
+	#login_button{
+		margin-left: 200px;
+		padding: 20px;
+		background-color: black;
+		color: white;
+		width: 200px;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+	}
+	#login_button:hover{
+		background-color: green;
+	}
+	#dark{
+		width: 0px;
+		position: absolute;
+		background-color: black;
+		left: 0px;
+		top:0px;
+		height: 0px;
+		opacity: 0.7;
+		text-align: center;
+
+
+	}
+	#login_form_place,#pass_word{
+		text-transform:uppercase;
+		opacity: 0.7;
+		letter-spacing: 10px;
+		text-align: center;
+		width: 300px;
+		margin:10px;
+		margin-left: 150px;
+		padding: 10px
+
+	}
+	#login_form,#confirm_panel{	
+		width: 625px;
+		padding: 10px;
+		position: absolute;
+		margin-left: 200px;
+		top:200px;
+		display: none;
+		opacity: 1;
+		background-image: url("web/pnallogowania.png");
+		border-radius: 5px;
+		box-shadow:3px 3px 6px black;
+	}
+	#confirm_panel{
+		background-image: none;
+		background-color: black;
+		color: white;
+	}
+	#confirm_text{
+		text-align: center;
+	}
+	#set_notice{
+		margin-left: 40px;
+		background-color: green;
+		color: white;
+		padding: 10px;
+		position: absolute;
+		width: 924px;
+		border-radius: 5px;
+		display: none;
+	}
+	#first_contact,#panel_hed,#eroer_login{
+		text-align: center;
+		text-transform: uppercase;
+		color: white;
+		letter-spacing: 3px;
+		font-size: 20px;
+		text-shadow:2px 3px 6px gray;
+	}
+	#eroer_login{
+		color: red;
+		display: none;
+	}
+	#login_box{
+		margin-top: 120px;
+		color: red;
+	}
+	#panel_hed{
+		box-shadow:none;
+		color: black;
+		margin-top: 100px;
+		letter-spacing: 5px;
+		font-size: 25px;
+	}
+	#select_subject,#name,#phone_form,#emial{
+		width: 600px;
+		margin: 10px;
+		padding: 10px;
+		text-transform: uppercase;
+		opacity: 0.7;
+	}
+	#name,#phone_form,#emial{
+		width: 580px;
+	}
+	#phone_form,#emial{
+		width: 270px;
+	}
+	#anser{
+		background-color: none;
+		color: black;
+		text-transform:none;
+	}
+	#contents_text{
+		text-align: center;
+		text-transform: uppercase;;
+		width: 600px;
+		height: 200px;
+		opacity: 0.7;
+	}
+	#contents_text:hover,#select_subject:hover,#name:hover,#phone_form:hover,#emial:hover{
+		opacity: 1;
+	}
+	#chused_elemnt{
+		text-align: center;
+	}
+	#text_ofert{
+		margin-left: 50px;
+	}
+	#text_insite{
+		font-size: 20px;
+		padding:20px;
+		color:white;
+	}
+	#sent_confirm{
+		margin-top: 10px;
+		text-transform: uppercase;
+		width: 600px;
+		height: 20px;
+		padding:20px;
+		background-color: green;
+		color: white;
+		opacity: 0.5;
+
+	}
+	#sent_confirm:hover{
+		opacity: 1.0;
+	}
+	#contact_info{
+		width: 725px;
+		height: 550px;
+		border-radius: 5px;
+		background: black;
+		position: absolute;
+		margin-top: 125px;
+		margin-left: 150px;
+		display: none;
+  		padding:15px;
+  		padding-top: 50px;
+  		box-shadow:3px 3px 6px black;
+		background-image: url("web/dark_geometric.png");
+	}
+	#menu_admin{
+		background-color: grey;
+		width: 1024px;
+		height: 50px;
+	}
+	#corent_photo{
+		border-radius: 5px;
+		background-color: black;
+		top: 20px;
+		left: 22%;
+		padding: 10px;
+		position: absolute;
+		display: none;
+	}
+	#corent_photo_DIV{
+		background-color: red;
+		width: 1024px;
+		height: 750px;
+	}
+	#sort_cats{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 150px;
+		padding-right: 150px; 
+	}
+	#name,#phon,#emial{
+		margin-bottom: 10px;
+	}
+	#contakt_info,#Ofert_info,#firm_info,#galery_info{
+		display: none;
+		padding: 20px;
+		padding-top: 40px;
+	}
+	#kontakt_infotekst:hover,#kontakt_infotekst_ofert:hover,#kontakt_infotekst_FIRM:hover,#galery_infotekst:hover{
+		background-image: url("web/menuhover2.png");
+		color: white;
+	}
+	#kontakt_infotekst,#kontakt_infotekst_ofert,#kontakt_infotekst_FIRM,#galery_infotekst{
+		background-image: url("web/menunothover.png");
+		padding: 10px;
+		font-size: 15px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+	#content_editor,#content_editor_contact{
+		display: none;
+		width: 100%;
+		
+	}
+	#div_BOX,#div_BOX_firm{
+		width: 500px;
+		background-image: url("web/white_plaster.png");
+		border-radius: 5px;
+		box-shadow:0 0 6px black;
+		padding: 20px;
+		float: left;
+	}
+	#kontakt_infotekst_ofert,#kontakt_infotekst_FIRM,#galery_infotekst{
+		font-size: 12px;
+		letter-spacing: none;
+	}
+	#insite{
+		float: left;
+	}
+	#kontakt_ditels{
+		width: 500px;
+		height: 250px;
+	}
+	#sent_mes{
+		text-align: center;
+		text-transform: uppercase;
+		padding: 20px;
+		background-color: gray;
+		color: white;
+
+	}
+	#main_info,#owner,#owner,#Adres,#code_post,#emil,#phone{
+		margin: 10px;
+	}
+	#main_info,#main_info_ofert,#main_info_firm{
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 20px;
+		text-shadow:0 0 6px gray;
+
+	}
+	#main_info_firm{
+		margin-bottom: 0px;
+		margin: 5px;
+		font-size: 25px;
+		letter-spacing: 10px;
+	}
+	#main_info_ofert{
+		font-size: 25px;
+	}
+	#map{
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		width: 200px;
+		height: 200px;
+		background-color: black;
+	}
+	#galery_infotekst{
+		font-size: 10px;
+		letter-spacing: none;
+	}
+	#hover_div,#hover_Ofert,#hover_firm,#hover_galery{
+		width: 0px;
+		background-image: url("web/irongrip.png");
+		background-color: black;
+		height: 150px;
+
+	}
+	#left_site{
+		padding: 10px;
+		margin-left: 100px;
+	}
+	#ofert_not_active,#ofert_active{
+		padding: 20px;
+		background-color: gray;
+		color:white;
+		margin-top:20px;
+		text-transform: uppercase;
+	}
+	#ofert_not_active:hover{
+		background-color: red;
+	}
+	#ofert_active{
+		background-color: black;
+	}
+	#min_title_contact,#min_title_Ofert{
+		text-transform: uppercase;
+		font-style: bold;
+		margin-bottom: 10px;
+		margin-left: 20px;
+
+
+	}
+	#text_Firmm{
+		padding-left: 80px;
+		padding-right: 20px;
+	}
+	#text_insite_DIV{
+		text-align: justify;
+	}
+	#miargin{
+		margin-top: 5px;
+	}
+	#min_title_Ofert,#More_ofert{
+		margin-top: 5px;
+	}
+	#More_ofert{
+		text-align: center;
+	}
+	#about_firm_sorcout,#about_contakt,#about_Galery,#about_Ofert{
+		float: left;
+		background-image: url("web/kontak.png");
+		background-color: gray;
+		width:	250px;
+		height: 150px;
+		box-shadow:3px 3px 6px black;
+	}
+	#about_Galery{
+		background-image: url("web/xv.png");
+	}
+	#about_contakt,#about_Galery,#about_firm_sorcout,#about_Ofert{
+		margin-top: 20px;
+
+	}
+	#about_Galery,#about_Ofert{
+		margin-left: 200px;
+	}
+	#about_Ofert{
+		background-image: url("web/ofert.png");
+	}
+	#about_firm_sorcout{
+		background-image: url("web/about.png");
+	}
+	#close{
+		position: absolute;
+		font-size:20px; 
+	}
+	#corent_photo{
+		color: white;
+		position: absolute;
+	}
+	#corent_photo_src{
+		margin-top: 100px;
+		margin-left: 40px;
+	}
+	#slidePLAY{
+		margin-left: 350px;
+	}
+	#play_SLIDE:hover,#stop_SLIDE:hover{
+		opacity: 0.7;
+	}
+	#stop_SLIDE,#slide_loop_DIV,#add_slides{
+		display: none;
+	}
+	#up{
+		background-image: url("web/up.png");
+		background-repeat: repeat-x;
+		width: 100%;
+		height: 100px;
+		
+
+	}
+	#slide_main_PLace{
+		float: left; 
+	}
+	#slides_01,#slides_02,#slides_03,#slides_04{
+		width: 1024px;
+		height: 250px;
+		background-image: url("web/baner01.png");
+		background-repeat: no-repeat;
+		margin-left: 0px;
+		margin-top:  0px;
+		opacity: 1;
+	}	
+	#slides_02{
+		width: 1024px;
+		height: 250px;
+		background-image: url("web/baner02.png");
+		margin-left: 1024px;
+		margin-top:  -250px;
+	}
+	#slides_03{
+		background-image: url("web/baner03.png");
+		margin-left: 2048px;
+		margin-top:  -250px;
+	}
+	#slides_04{
+		background-image: url("web/baner04.png");
+		margin-left: 3072px;
+		margin-top:  -250px
+	}
+	#viev_place{
+		min-height: 680px;
+		width: 1024px;
+		background-color: white;
+		background-image: url("web/ps_neutral.png");
+	}
+	#futer{
+		border-top: 1px solid black;
+		background-image: url("web/footer.png");
+		width: 100%;
+		height: 100px;
+	}
+	#mes_info_stan{
+		border: 1px solid black;
+		background-image: url("web/mesinfo.png");
+		background-color: red;
+		margin-top: 10px;
+		width: 75px;
+		height: 75px;
+		padding: 15px 10px 10px 25px;
+		float: left;
+		color: white;
+		font-size: 35px;
+		border-radius: 25px 35px 35px 25px;
+		
+	}
+	#mes_info_stan:hover{
+		background-image: url("web/mesinfohover.png");
+	}
+	#logo{
+		width: 30%;
+	}
+	#logo,#menu{
+		margin-top: 30px;
+		float: left;
+		border-radius: 5px;	
+	}
+	#menu{
+		background-image: url("web/menunothover.png");
+		float: left;
+		width: 509px;
+		height: 43px;
+		border: 1px solid black;
+	}
+	#menu_elment,#menu_elment_first,#menu_elment_submenu{
+	
+		float: left;
+		padding: 10px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: black;
+		left:0px;
+	}
+	#stan_mes{
+		position: static;
+	}
+	#sub_menu{
+		display: none;
+		margin-top: -35px;
+		margin-left: 720px;
+		position: absolute;
+		background-color: white;
+		border: 1px solid black;
+		width: 110px;
+		height: 0px;
+		border-radius:0px 0px 5px 5px;
+	}
+	#actual{
+		background-image: url("web/menuhover2.png");
+		float: left;
+		color: white;
+		padding: 11px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		left:0px;
+		border-radius: 5px 0px 0px 5px; 
+	}
+	#actual_first{
+		background-image: url("web/menuhover2.png");
+		float: left;
+		color: white;
+		padding: 11px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		left:0px;
+		
+	}
+
+
+
+	#menu_elment_first{
+		border-left: 0px solid black;
+	}
+	#menu_elment_submenu{
+		background-image: url("web/menunothover.png");
+		width: 107px;
+	}
+	#menu_elment:hover,#menu_elment_first:hover,#menu_elment_submenu:hover{
+		background-image: url("web/menuhover2.png");
+		opacity: 0.8;
+		color: white;		
+	}
+
+	#menu_elment_first:hover{
+		border-radius: 5px 0px 0px 5px;
+		opacity: 0.8 ;	
+	}

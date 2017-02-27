@@ -1,0 +1,87 @@
+<script type="text/javascript">
+		var slide_array=[];
+</script>
+<div id="slide_main_PLace">
+	<loop name="slide">
+		<div id="[#div#]" style="background-image: url('[#photo#]');">
+	
+			<br><br>
+			<div id="[#div_text#]">
+				<div id="text_insite">
+					[#text#]
+				</div>
+			</div>
+		</div>
+		<script>
+			slide_array[[#position#]]=['[#div#]'];
+		</script>
+	</loop name="slide">	
+</div>
+
+<div id="chused_elemnt">
+</div>
+<div id="sort_cats">
+	<div id="section_sort_cut">
+		<div id="about_firm_sorcout" onmouseenter=Firm_hover([#ADMIN#])>
+			<div id="text_Firmm">
+				<div id="min_title_Ofert"><b>O Firmie</b></div>
+					<div id="text_insite_DIV">
+						[#FIRMTEXT#]
+					</div>	
+			</div>
+				<div id="hover_firm">
+					<div id="firm_info">
+						<div id="kontakt_infotekst_FIRM">
+												Wiecej O firmie
+						</div>
+					</div>
+				</div>
+								
+		</div>						
+	<div id="about_Ofert" onmouseenter=about_hover([#ADMIN#])>
+			<div id="text_ofert">
+				<div id="min_title_Ofert"><b>Usługi</b></div>
+					<ul> 
+						<loop name="serment">
+							<li id="miargin">[#NAME#]</li>
+						</loop name="serment">
+						<spam id="More_ofert">I znacznie wiecej</spam> 
+					</ul>
+				</div>
+			<div id="hover_Ofert">
+				<div id="Ofert_info">
+					<div id="kontakt_infotekst_ofert">
+						Zobacz Całą Ofertę 
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+<div id="section_sort_cut">
+	<div id="about_contakt" onmouseenter=coctakt_hover([#ADMIN#])>
+		<div id="left_site">
+				<div id="min_title_contact"><b>Kontakt</b></div> 
+						[#CONTACKT#]
+		</div>
+		<div id="hover_div">
+			<div id="contakt_info">
+				<div id="kontakt_infotekst">
+						Skontaktuj Się
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="about_Galery">
+			<div id="about_firm_Galery" onmouseenter=galery_hover([#ADMIN#])>
+				<img id="JS_rondom_PHOTO" src="" width="250" height="150">
+			</div>
+			<div id="hover_galery">
+				<div id="galery_info">
+						<div id="galery_infotekst">
+							zobacz cała galerię
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>	

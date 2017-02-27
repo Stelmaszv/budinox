@@ -1,0 +1,44 @@
+	<div id="content_editor_slite">
+		<div id="editor_menu">
+			<div onclick="edit_slite()" id="save_ICON_slite">
+				zapisz
+			</div>
+			<div id="cancel_ICON_slite" onclick="edit_menu()">
+				anuluj
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="loop_section">
+		<loop name="loop_slite">	
+			<div id="slide[#position#]" style="background-image: url('[#photo#]');" class="slide" ondblclick="load_slites([#position#])">
+				<div id="slide_text_edition">
+					<div id="text_insite_edition">
+						<textarea id="form[#position#]" style="background-color: black;height: 120px; width: 250px;">[#text#]</textarea>
+					</div>
+				</div>
+			</div><br>
+		</loop name="loop_slite">
+	</div>
+<style>
+	#loop_section{
+		margin-left: 15%;
+	}
+	#content_editor_slite{
+		margin-left: 300px;
+		margin-bottom: -20px;
+	}
+	.slide{
+		float: none;
+		padding: 15px;
+		margin:  0px;
+		width: 80%;
+		height: 150px;
+		background-size:100% 100%;
+	}
+	.slide_to_edition{
+		margin: 10px;
+		height: 120px;
+		background-size:100% 100%;
+	}
+</style>

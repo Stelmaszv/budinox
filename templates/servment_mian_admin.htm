@@ -1,0 +1,94 @@
+<script>
+	var oferts_array_admin=[];
+	var checkbox=[];
+	var oferts_add=[];
+		oferts_add[0]=['add0','content0'];
+</script>
+	<div id="editor_menu_amin">
+			<div id="add_icon">
+				<div id="save_ICON_ADMINofert" onclick="add_serment_on('on')">Dodaj nową</div>
+			</div>
+			<div id="save_icon">
+				<div id="save_ICON_ADMINofert" onclick="save_this()">zapisz</div>
+			</div>
+			<div id="cancel_ICON_ADMINofert" onclick="get_ID('main_info_ofert').click()">
+				anuluj
+			</div>
+	</div>
+		<div id="loop_edition">
+			<if name="zero">
+				<loop name="loop_array_admin">
+					<div id="form_div_space">
+						<input id="name[#NUMBER#]" type="text" value="[#NAME#]" class="form_add"><br>
+						<textarea id="content[#NUMBER#]" class="form_add_textarea">[#CONTENT#]</textarea>
+						<div>Chesz usnąć "[#NAME#]" ? <input id="checkbox[#NUMBER#]" type="checkbox" onchange="add_to_list('checkbox[#NUMBER#]',[#ID#],[#NUMBER#])" ></div>
+					</div>
+					<script>
+						oferts_array_admin[[#NUMBER#]]=['name[#NUMBER#]','content[#NUMBER#]',[#ID#]];
+					</script>
+				</loop name="loop_array_admin">
+			</if name="zero">
+			<if name="zero_negation">
+				<div id="form_div_space">
+					<br><br><br><br><br><br>
+					<div id="ofert_not_active" onclick="add_serment_on('on')">Brak usług Dodaj nowe  </div>
+				</div>
+			</if name="zero_negation">
+		</div>
+		<div id="add_system_div" style="display:none;">
+			<div id="add_section_menu">
+				<div id="set_number_form">
+				 	<spam> Ilosc nowych ułsug które zotaną dodane:</spam><input type="number" id="set_number" value="1" onchange="set_number()">
+				 </div>
+			</div>
+			<div id="line_space"></div>
+			<div id="add_section_DIV">
+				<div id="form_div_space">
+							<input id="add0" type="text" value="Nazwa" class="form_add"><br>
+							<textarea id="content0" class="form_add_textarea">Usługi</textarea>
+				</div>
+			</div>
+		</div>
+<style>
+	#list_confirm{
+		padding: 10px;
+		text-align: left;
+		margin-left: 20%;
+		text-transform: uppercase;
+	}
+	#add_section_menu{
+		height: 100px;
+	}
+	#set_number_form{
+		float: right;
+		padding: 20px;
+		font-size: 17px;
+	}
+	#line_space{
+		width: 100%;
+		height: 1px;
+		background-color: black;
+	}
+	.form_add,.form_add_textarea,#set_number{
+		position: static;
+		text-align: center;
+		width: 80%;
+		margin: 10px;
+		padding: 10px;
+		opacity: 1;
+	}
+	#set_number{
+		width: 40px;
+		margin: 5px;
+		padding: 0;
+	}
+	.form_add_textarea{
+		height: 200px;
+	}
+	.form_add:hover,.form_add_textarea:hover{
+		opacity: 0.7;
+	}
+	#add_section_menu{
+		padding: 20px;
+	}
+</style>

@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<link href="http://fonts.googleapis.com/css?family=Roboto:300&amp;subset=latin-ext" rel="stylesheet">
+      	<script src="//maps.google.com/maps/api/js?sensor=false&amp;language=pl"></script>
+  		<script src="js/slide.js"></script>
+  		<script src="js/gmap3.min.js"></script>
+  		<script src="js/manuJS.js"></script>
+  		<script src="js/galeryJS.js"></script>	
+  		<script src="js/forms.js"></script>	
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/main.css">
+		<link rel="stylesheet" type="text/css" href="style/galery.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Najlepsze balustrady w polsce">
+		<meta name="keywords" content="balustrady,budinox,Lukasz Murawski">
+		<meta name="author" content="stelmaszv">
+		<title>Budinox</title>
+	</head>
+	<body id="body" onload="ramdom_galery_loop()" onselectstart="return false" onselect="return false" oncopy="return false">
+		<if name="admin_LOGIN">
+			<script type="text/javascript">
+				window.addEventListener('load', function(event) {
+						darkON();
+						login_form_on();
+
+				});
+			</script>
+		</if name="admin_LOGIN">
+		<div id="dark">
+		</div>
+		<div id="contact_info">
+			<div id="first_contact">Skontaktuj Sie z nami</div> 
+			<center>
+				<div>
+					<input type="text" id="name"   placeholder="Imie i Nazwisko" class="form_elemnt">
+					<textarea id="contents_text" placeholder="wpisz tresc Wiadmosc" class="form_elemnt">wpisz tresc Wiadmosc</textarea>				
+					<select id="select_subject" class="form_elemnt">
+						<option>wybiersz Temat</option>
+						<option>Usluga</option>
+						<option>Wycena</option>
+						<option>Inne</option>
+					</select>
+					<input type="text" id="phone_form"  placeholder="telefon" class="form_elemnt">
+					<input type="text" id="emial"  placeholder="Address E-mial" class="form_elemnt">
+					<div id="sent_confirm">
+						Wyslij wiadmosc
+					</div>
+				</div>
+			</center>
+		</div>
+		<div id="login_form">
+			<div id="login_box">
+				<div id="eroer_login">Błedny login lub hasło</div>
+				<div><input type="text" id="login_form_place" placeholder="login"></div>
+				<div><input type="text" id="pass_word" 		 placeholder="hasło"></div>
+				<div id="login_button">
+					Zaloguj sie 
+				</div>
+			</div>
+		</div>
+	
+		
+		<div id="corent_photo">
+
+
+		<style type="text/css">
+						#menu_admin{
+				height: 0px;
+				background-color: black;
+			}
+			#close_galery{
+
+				position: absolute;
+				top:-2%;
+				right: -2%;
+				font-size: 25px;
+				padding: 10px;
+				background-color: gray;
+				border-radius: 20px;
+				float: right;
+			}
+			#menu_elment_galery{
+				margin: 10px;
+				text-transform: uppercase;
+			}
+		</style>
+		<div id="menu_admin">
+			<div id="close_galery" >
+				<spam id="menu_elment_galery"onclick="close_galery()" >X</spam>
+			</div>
+		</div>
+		<div id="corent_photo_DIV"> 
+		</div>
+			<div id="slidePLAY">
+				<div id="next">	
+					<img src="style/web/prewius.png">
+				</div>
+				<div id="play_SLIDE">
+					<img src="style/web/play.png" width="100" height="100">
+				</div>
+				<div id="stop_SLIDE">
+					<img src="style/web/stop.png"  width="100" height="100">
+				</div>
+				<div id="back">
+					<img src="style/web/next.png">
+				</div>
+			</div>
+					
+		</div>
+			
+		<div id="up">
+			<div id="logo">
+			
+			</div>
+			<div id="menu">
+				<div id="menudiv">
+				</div>
+			</div>
+		</div>
+		<div id="viev_place">
+				<div id="main_page">
+					[#MAIN_PAGE#]
+				</div>
+					
+				<div id="about_firm">
+					[#ABOUTFIRM#]
+				</div>
+				<div id="ofert">
+					[#OFERT#]
+
+				</div>
+				<div id="galery">
+					[#GALERY#]
+				</div>
+				<div id="set_notice">Twoja wiadmosc wysłana Pomyślnie !</div>
+				<div id="contact">
+					[#contact#]
+				</div>
+		</div>
+		<div id="futer">
+			[#FUTER#]
+		</div>
+		
+	</body>
+	<script>
+			get_ID('menudiv').innerHTML=main_menu(0);
+			get_ID('futer_menu').innerHTML=nemufuter(0);
+			slide(0);
+			setInterval(function(){ $( "#set_notice" ).fadeOut(800); },500);
+			//alert(document.getElementById('slide_01').style.marginLeft);
+						 
+	</script>
+
+</html>
+

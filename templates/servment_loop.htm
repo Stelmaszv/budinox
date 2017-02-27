@@ -1,0 +1,12 @@
+<script>
+	var oferts_array=[];
+</script>
+<loop name="loop_array">
+	<div id='ofert_not_active' onclick=Oferts([#NUMBER#])>[#NAME#]</div>
+		<div id="[#NUMBER#]" style="display: none;padding: 20px; color: white; background-image: url('style/web/classy_fabric.png'); margin-left: 20px;margin-right: 20px;border-radius: 0px 0px 20px 20px;" >[#CONTENT#]</div>
+	<script>
+		oferts_array[[#NUMBER#]]=['[#NUMBER#]'];
+	</script>
+</loop name="loop_array">
+
+

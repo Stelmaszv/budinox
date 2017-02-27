@@ -1,0 +1,43 @@
+
+<div id="messages_main_div">
+	<div id="menu_messages">
+		<div  id="adreess">Imie i nazwisko</div>
+		<div  id="subjest">temat</div>
+		<div  id="content">tresc</div>
+		<div  id="time">data</div>
+		<div  id="action">action</div>
+	</div>
+		<div class="scrollbar" id="style-5" style="width: 1024px; height: 680px; margin-top:-10px;">
+    		<div class="force-overflow">
+				<loop name="mesages">
+					<div id="[#NOt_reed#]" >
+						<div id="adddres_DIV" onclick="load_message([#id#])">[#emial#]</div>	
+						<div id="subjest_DIV" onclick="load_message([#id#])">[#subject#]</div>
+						<div id="content_DIV" onclick="load_message([#id#])">[#contents#]</div>
+						<div id="stan_DIV"    onclick="load_message([#id#])">[#time#]</div>
+							<div id="action_DIV">
+								<spam  id="action_icon" onclick="slect_as_reed([#id#]),set_menus()" class="[#reed_icon#]" ></spam>
+								<spam  id="action_icon" onclick="anser_ON([#id#])" class="glyphicon glyphicon-envelope" ></spam>
+								<spam onclick="delete_mesage([#id#],'[#contents#]')" id="action_icon"  class="glyphicon glyphicon-trash" ></spam>
+							</div>			
+					</div>
+				</loop name="mesages">
+				[#ZERO#]
+			</div>
+		</div>
+</div>
+<style type="text/css">
+	#loop_elemnt_massages{
+		width: 1014px;
+		float: left;
+		height: 50px;
+		background-color: white;
+	}
+	#NOt_reed{
+		width: 1014px;
+		float: left;
+		height: 50px;
+		background-color: red;
+	}
+
+</style>
